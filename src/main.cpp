@@ -11,7 +11,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
 }
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
-    const int width = 800, height = 600;
+    constexpr int width = 800, height = 600;
 
     WNDCLASS wc = {};
     wc.lpfnWndProc = WndProc;
