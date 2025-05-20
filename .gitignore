@@ -1,0 +1,25 @@
+# CLion
+.idea/
+cmake-build-*/
+*.iml
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+build/
+Makefile
+compile_commands.json
+
+# Windows
+*.exe
+*.pdb
+*.obj
+*.dll
+*.ilk
+*.log
+
+# Misc
+*.user
+*.vs
+*.suo
+*.sdf
