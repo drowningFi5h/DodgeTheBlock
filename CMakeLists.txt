@@ -14,6 +14,7 @@ add_executable(DodgeTheCubes
         src/Player/Player.cpp src/Player/Player.h
         src/Input/Input.cpp src/Input/Input.h
         src/Cube/Cube.h
+        src/Cube/Cube.cpp
 )
 
 # Link against DirectX 11 libraries
